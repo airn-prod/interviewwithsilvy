@@ -14,13 +14,17 @@ export default function Feedback() {
           <div className="flex flex-col items-start justify-between">
             <div className="space-y-2">
               <h2 className="text-2xl font-bold">Interview Results</h2>
-              <p className="text-muted-foreground">Great job on your interview! Here's a summary of your performance.</p>
+              <p className="text-muted-foreground">Great job on your interview! Here's represent of your performance.</p>
             </div>
             <div className="max-w-[768px] mx-auto py-4">
               <img 
-                src="../image/rino.jpg" 
+                src="../image/crocodile.jpg" 
                 alt="Description of image" 
-                className="w-[768px] h-[300px] object-cover rounded-lg shadow-lg"/>
+                className="w-[768px] h-[400px] object-cover rounded-lg shadow-lg"/>
+                <div className="px-4 py-3 my-3 border rounded-lg border-zinc-700">
+                  <p className="mb-2 font-semibold">Description:</p>
+                  <p className="font-light">You are an ambitious worker. Always accept challenges with enthusiasm from your boss. Always give a smile to everyone. But don't be fake with yourself. Believe with your ability and capability.</p>
+                </div>
             </div>
           </div>
         </div>
