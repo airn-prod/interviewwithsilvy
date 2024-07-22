@@ -11,7 +11,7 @@ const IntroduceYourself: React.FC<IntroduceYourselfProps> = () => {
     { label: "First name", placeholder: "First name" },
     { label: "Last name", placeholder: "Last name" },
     { label: "Email", placeholder: "your@email.com", type: "email" },
-    { label: "Phone number", placeholder: "+62 (000) 000-0000", type: "tel" },
+    { label: "City", placeholder: "Your city", type: "Country name" },
   ];
 
   return (
@@ -23,7 +23,7 @@ const IntroduceYourself: React.FC<IntroduceYourselfProps> = () => {
         <p className="self-stretch font-light mt-3 text-lg text-center max-md:max-w-full">
           We'd love to hear from you. Please fill out this form.
         </p>
-        <form className="flex flex-col justify-center mt-10 max-md:mt-10">
+        <form className="flex flex-col w-full max-w-md items-center mt-10 max-md:mt-10">
           {formInputs.map((input, index) => (
             <FormInput key={index} {...input} />
           ))}

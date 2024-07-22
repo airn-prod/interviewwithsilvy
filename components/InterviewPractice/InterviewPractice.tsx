@@ -15,7 +15,7 @@ interface InterviewPracticeProps {
 const InterviewPractice: React.FC<InterviewPracticeProps> = ({ userName }) => {
   return (
     <main className="flex justify-center items-center px-16 py-20 bg-black max-md:px-5">
-      <section className="flex flex-col justify-end p-5 mt-64 max-w-full rounded-xl border border-solid bg-neutral-900 border-zinc-800 w-[620px] max-md:mt-10">
+      <section className="flex flex-col justify-end p-5 mt-12 max-w-full rounded-xl border border-solid bg-neutral-900 border-zinc-800 w-[620px] max-md:mt-10">
       <TextGenerateEffect
         words="Hello! Today we will practice your interview skill to be
           Software Engineer."
