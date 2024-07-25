@@ -23,7 +23,7 @@ export default function Feedback() {
                 className="w-[768px] h-[400px] object-cover rounded-lg shadow-lg"/>
                 <div className="px-4 py-3 my-3 border rounded-lg border-zinc-700">
                   <p className="mb-2 font-semibold">Description:</p>
-                  <p className="font-light">You are an ambitious worker. Always accept challenges with enthusiasm from your boss. Always give a smile to everyone. But don't be fake with yourself. Believe with your ability and capability.</p>
+                  <p className="font-light leading-6 text-zinc-200">In a lively workplace, the crocodile embodies the ideal team player with its friendly smile and relaxed attire, fostering a creative and welcoming environment. This playful character mirrors an innovative employee who brings fresh ideas and positivity to the team. However, its overly casual appearance might suggest a lack of focus, echoing an employee who occasionally struggles with professionalism. Balancing this playful spirit with productivity is key to thriving in such an atmosphere.</p>
                 </div>
             </div>
           </div>
@@ -98,6 +98,19 @@ export default function Feedback() {
                 Excellent job demonstrating your ability to quickly learn a new skill. Your proactive approach of watching tutorials and practicing on your own time shows a strong commitment to professional development. This type of adaptability is highly valued in the workplace.
               </p>
             </div>
+            <div className="bg-muted rounded-lg py-4 text-muted-foreground">
+              <div className="flex flex-row justify-items-center mb-2 gap-3">
+              <p className="font-medium text-zinc-50">Can you tell me about your day-to-day?</p>
+              <p className="text-sm font-normal px-2 py-1 content-center rounded-md bg-zinc-800 text-zinc-200">Follow-up</p>
+              </div>
+              <p>
+                Just figure out, what happen today on social media. What people talk about this week. Learning new thing with OpenAI and Python library LangChain. Hanging out with my friends and yeah.
+              </p>
+            </div>
+            <p className="font-medium mb-2 text-zinc-50">Feedback:</p>
+              <p>
+                Excellent job demonstrating your ability to quickly learn a new skill. Your proactive approach of watching tutorials and practicing on your own time shows a strong commitment to professional development. This type of adaptability is highly valued in the workplace.
+              </p>
           </div>
         </div>
         <div className="bg-card rounded-lg p-6">
